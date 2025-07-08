@@ -1,7 +1,7 @@
 ## Heart Disease Prediction for Insurance Risk Stratification
 ### Preface
 >This project was an industry-academic collaboration with Cathay Life Insurance and NCCU Machine Learning and AI course.
-Our goal is to predict the risk of suffering from heart disease using Kaggle health survey data and to translate our model insights into a business strategy in the life insurance industry.
+Our goal is to identify high-risk patients using health and lifestyle data on Kaggle to support underwriting and claim cost optimization under IFRS 17.
 
 ### Problem Statement
 >Purpose: Using customer's health data to predict whether the customer will suffer heart disease in the future, and provide a model for insurance company to do risk evaluation.
