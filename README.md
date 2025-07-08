@@ -68,8 +68,8 @@ Our result could be applied to progression in the industry:
 - Scikit-learn, XGBoost, LightGBM
 - SHAP, Matplotlib, Pandas
 ### Author
->Chien-Ying Chen 
-Project Lead – Responsible for business problem framing, full modeling pipeline (XGBoost, Soft Voting).  
+>**Chien-Ying Chen**(Project Lead) – Responsible for business problem framing, full modeling pipeline (XGBoost, Soft Voting).  
 Final project score: 96/100; commended by both professor and Cathay Life management.
+
 ### Original Project Slides
 >Original version of our business objective, data analysis, and model results, please refer to the [Project Slides (PDF)](Heart-Disease-Prediction-Slides.pdf)
