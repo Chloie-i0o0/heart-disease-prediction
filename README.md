@@ -18,7 +18,7 @@ We set our **BUSINESS PROBLEM** as
 ### Dataset
 > * **Source**: Kaggle Indicators of Heart Disease Dataset (2022 UPDATE)
 > * **Dataset Size**: 445,132 records
-> * **Features**:heart_disease, gender, age, self_reported_health and other features regarding Basic Information and Lifestyle Habits, Health Status and Medical History, Functional Impairments and Physical Limitations, Vaccination and Screening Records
+> * **Features**: heart_disease, gender, age, self_reported_health and other features regarding Basic Information and Lifestyle Habits, Health Status and Medical History, Functional Impairments and Physical Limitations, Vaccination and Screening Records
 ### Methods
 
 #### Data Processing
@@ -37,12 +37,9 @@ We set our **BUSINESS PROBLEM** as
 * Confusion Matrix
 
 #### Key Results
-* **Best Model**:
-![classification_report](./figures/08_final_results/final_model_classification_report.png)
-![confusion_matrix](./figures/08_final_results/final_model_confusion_matrix.png)
-* **Important Feature**:'ChestScan_Yes', 'Sex_Male', 'HadStroke_Yes', 'GeneralHealth', 'RemovedTeeth_None of them', 'AgeCategory', 'HadDiabetes_Yes', 'RemovedTeeth_All', 'SmokerStatus_Never smoked', 'HadAngina_Yes'...
-* **Risk Stratification**:
-![probability_distribution](./figures/08_final_results/predicted_heart_disease_probability_distribution.png)
+* **Best Model**: XGBoost (AUC = 0.89)
+* **Important Feature**: 'ChestScan_Yes', 'Sex_Male', 'HadStroke_Yes', 'GeneralHealth', 'RemovedTeeth_None of them', 'AgeCategory', 'HadDiabetes_Yes', 'RemovedTeeth_All', 'SmokerStatus_Never smoked', 'HadAngina_Yes'...
+* **Risk Stratification**: Built a 3-level risk system to map predicted probabilities into insurance policy segmentation.
 #### Business Impact
 Our result could be applied to progression in the industry:
 * **Underwriting**: Use model to classify applicants into high/moderate/low risk. Incorporate non-lifestyle features into underwriting to reduce adverse selection.
